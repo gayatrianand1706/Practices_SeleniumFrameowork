@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Test Suite" duration-ms="7609" started-at="2020-05-05T15:52:06 IST" finished-at="2020-05-05T15:52:13 IST">
+    <groups>
+    </groups>
+    <test name="Pending leave Request TestCases" duration-ms="4243" started-at="2020-05-05T15:52:06 IST" finished-at="2020-05-05T15:52:10 IST">
+      <class name="TestCases.Test_Pending_Leave_Request">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:TestCases.Test_Pending_Leave_Request@33c7e1bb]" name="login" duration-ms="1901" started-at="2020-05-05T15:52:06 IST" data-provider="getATTestData" finished-at="2020-05-05T15:52:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyleavependingtext()[pri:2, instance:TestCases.Test_Pending_Leave_Request@33c7e1bb]" name="verifyleavependingtext" duration-ms="1682" started-at="2020-05-05T15:52:08 IST" finished-at="2020-05-05T15:52:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyleavependingtext -->
+      </class> <!-- TestCases.Test_Pending_Leave_Request -->
+    </test> <!-- Pending leave Request TestCases -->
+    <test name="Check user role testcases" duration-ms="3339" started-at="2020-05-05T15:52:10 IST" finished-at="2020-05-05T15:52:13 IST">
+      <class name="TestCases.Logout_Testcases">
+        <test-method status="PASS" signature="Logouttestcase()[pri:0, instance:TestCases.Logout_Testcases@2c039ac6]" name="Logouttestcase" duration-ms="1124" started-at="2020-05-05T15:52:12 IST" finished-at="2020-05-05T15:52:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logouttestcase -->
+      </class> <!-- TestCases.Logout_Testcases -->
+      <class name="TestCases.Test_user_role">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:TestCases.Test_user_role@9a7504c]" name="LaunchBrowser" is-config="true" duration-ms="12899" started-at="2020-05-05T15:51:53 IST" finished-at="2020-05-05T15:52:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="checkuserrole()[pri:0, instance:TestCases.Test_user_role@9a7504c]" name="checkuserrole" duration-ms="2208" started-at="2020-05-05T15:52:10 IST" finished-at="2020-05-05T15:52:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserrole -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Test_user_role@9a7504c]" name="tearDown" is-config="true" duration-ms="802" started-at="2020-05-05T15:52:13 IST" finished-at="2020-05-05T15:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Test_user_role -->
+    </test> <!-- Check user role testcases -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>

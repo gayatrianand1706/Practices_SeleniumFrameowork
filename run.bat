@@ -1,0 +1,2 @@
+cd C:\SeleniumAutomation\Practices_SeleniumFrameowork
+mvn clean install
